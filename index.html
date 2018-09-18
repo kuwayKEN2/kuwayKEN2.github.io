@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>ARMA4Body</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+	 <!-- css -->
+	<link rel="stylesheet" type="text/css" href="swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Font Awesome cdn -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	
+	<!--Navigation Script -->
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		$(window).on('scroll', function(){
+			if ($(window).scrollTop()){
+				$('nav').addClass('black');
+			}
+			else
+			{
+				$('nav').removeClass('black');
+			}
+		})
+	</script>
+
+	<!-- Smooth page jump -->
+	<script>
+		$(function() {
+			$('a[href*="#"]:not([href="#"])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname)
+				{
+					var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+					if (target.length) {
+						$('html, body').animate({
+							scrollTop: target.offset().top 
+						}, 1000);
+						return false;
+					}
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+	<!-- Navigation -->
+	<nav>
+		<div class="menu-icon">
+			<i class="fas fa-home"></i>
+		</div>
+
+		<div class="logo">
+			<span>//ARMA4BODY</span>
+		</div>
+
+		<div class="menu">
+			<ul>
+				<li><a href="#home" class="navHover"><i class="fas fa-home"></i> Home</a></li>
+				<li><a href="#footer" class="navHover"><i class="fas fa-users"></i> About us</a></li>
+				<li><a href="#gym" class="navHover"><i class="fas fa-dumbbell"></i> Browse Gym</a></li>
+				<li><a href="#footer" class="navHover"><i class="fas fa-phone"></i> Contact us</a></li>
+
+				<li><a href="#form_page" class="navHover login">Login</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="shop-icon">
+		<a><i class="fas fa-shopping-bag"></i></a>
+	</div>
+
+	<!-- Swiper -->
+	<div class="introduction">
+  		<span>You can have your choice from our <span class="best">Best Selling Products!</span></span>
+  	</div>
+
+  	<div id="home" class="swiper-container">
+    	<div class="swiper-wrapper">
+      		<div class="swiper-slide">
+      			<div class="imgBx">
+      				<img src="../ARMA/images/picture1.jpg">
+      			</div>
+      			<div class="details">
+      				<h3>PRODUCT 1<br><span>details</span></h3>
+      				<a href="#" target="_blank"><br>View Product</a>
+      			</div>
+      		</div>
+      
+      		<div class="swiper-slide">
+      			<div class="imgBx">
+      				<img src="../ARMA/images/picture1.jpg">
+      			</div>
+      			<div class="details">
+      				<h3>PRODUCT 2<br><span>details</span></h3>
+      				<a href="#" target="_blank"><br>View Product</a>
+      			</div>
+      		</div>
+
+      		<div class="swiper-slide">
+      			<div class="imgBx">
+      				<img src="../ARMA/images/picture1.jpg">
+      			</div>
+      			<div class="details">
+      				<h3>PRODUCT 3<br><span>details</span></h3>
+      				<a href="#" target="_blank"><br>View Product</a>
+      			</div>
+      		</div>
+
+      		<div class="swiper-slide">
+      			<div class="imgBx">
+      				<img src="../ARMA/images/picture1.jpg">
+      			</div>
+      			<div class="details">
+      				<h3>PRODUCT 4<br><span>details</span></h3>
+      				<a href="#" target="_blank"><br>View Product</a>
+      			</div>
+      		</div>
+
+      		<div class="swiper-slide">
+      			<div class="imgBx">
+      				<img src="../ARMA/images/picture1.jpg">
+      			</div>
+      			<div class="details">
+      				<h3>PRODUCT 5<br><span>details</span></h3>
+      				<a href="#" target="_blank"><br>View Product</a>
+      			</div>
+      		</div>
+
+      		<div class="swiper-slide">
+      			<div class="imgBx">
+      				<img src="../ARMA/images/picture1.jpg">
+      			</div>
+      			<div class="details">
+      				<h3>PRODUCT 6<br><span>details</span></h3>
+      				<a href="#" target="_blank"><br>View Product</a>
+      			</div>
+      		</div>
+
+      		<div class="swiper-slide">
+      			<div class="imgBx">
+      				<img src="../ARMA/images/picture1.jpg">
+      			</div>
+      			<div class="details">
+      				<h3>PRODUCT 7<br><span>details</span></h3>
+      				<a href="#" target="_blank"><br>View Product</a>
+      			</div>
+      		</div>
+
+      		<div class="swiper-slide">
+      			<div class="imgBx">
+      				<img src="../ARMA/images/picture1.jpg">
+      			</div>
+      			<div class="details">
+      				<h3>PRODUCT 8<br><span>details</span></h3>
+      				<a href="#" target="_blank"><br>View Product</a>
+      			</div>
+      		</div>
+
+      		<div class="swiper-slide">
+      			<div class="imgBx">
+      				<img src="../ARMA/images/picture1.jpg">
+      			</div>
+      			<div class="details">
+      				<h3>PRODUCT 9<br><span>details</span></h3>
+      				<a href="#" target="_blank"><br>View Product</a>
+      			</div>
+      		</div>
+
+    	</div>
+    		<!-- Add Pagination -->
+    		<div class="swiper-pagination"></div>
+  	</div>
+
+  	<div id="gym" class="gymContainer">
+  		<div class="arrow_Down bounce">
+  			<i class="fas fa-angle-down"></i>
+  		</div>
+  	</div>
+
+  	<div id="sportswear-Products" class="sportswear-Content">
+  		<div class="sportswear">
+  			<span class="highlight">SPORTS WEAR PRODUCTS</span>
+  			<div class="triangle"></div>
+  		</div>
+  	</div>
+
+  	<section class="arrowUp"></section>
+
+  	<div id="footer" class="footer">
+  		<div class="about-Us">
+  			<h3>About us</h3>
+  			<p>ARMA4Body is a trusted site for your desired Sports wear products. And also a good place where to look for a <a href="#gym">Gym</a> to start your workout. Feel Free to experience our Site and also try our <a href="#sportswear-Products">Sports Wear Products</a> too.</p>
+  			<br>
+  			<br>
+  			<h3>Contact us</h3>
+  			<p></p>
+  		</div>
+  	</div>
+
+
+
+	<script type="text/javascript" src="swiper.min.js"></script>
+	<!-- Initialize Swiper -->
+ 	<script>
+    	var swiper = new Swiper('.swiper-container', {
+      		effect: 'coverflow',
+      		grabCursor: true,
+     		centeredSlides: true,
+      		slidesPerView: 'auto',
+      		coverflowEffect: {
+        	rotate: 60,
+        	stretch: 0,
+        	depth: 300,
+        	modifier: 1,
+        	slideShadows : true,
+      	},
+      	pagination: {
+        	el: '.swiper-pagination',
+      	},
+    	});
+  	</script>
+
+  	<!-- Menu icon / mobile -->
+  	<script>
+  		//Menu Toggle-button
+  		$(document).ready(function() {
+  			$(".menu-icon").on("click", function() {
+  				$("nav ul").toggleClass("showing");
+  			});
+  		}); 	
+  	</script>
+</body>
+</html>
